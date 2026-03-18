@@ -1,17 +1,14 @@
 [project]
-name = ""
-description = ""
-version = "1.0.0"
-license = "LICENSE"
+name = "comfyui-contactsheet"
+description = "Preprocessor Contact Sheet for ComfyUI - runs all ControlNet preprocessors at once, displays them in a visual grid, and lets you inject AIO or dedicated preprocessor workflows with click-to-place."
+version = "2.0.0"
+license = { file = "LICENSE" }
+dependencies = ["Pillow", "numpy", "torch"]
 
 [project.urls]
-Repository = ""
-#  Used by Comfy Registry https://registry.comfy.org
+Repository = "https://github.com/g4brielelori-byte/Custom-Nodes"
 
 [tool.comfy]
-PublisherId = ""
-DisplayName = "ComfyUI-AIT"
+PublisherId = "GabrieleLoriAI"
+DisplayName = "Preprocessor Contact Sheet"
 Icon = ""
-includes = [] 
-# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
-
