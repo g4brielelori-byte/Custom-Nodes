@@ -6,7 +6,7 @@ license = { file = "LICENSE" }
 dependencies = ["Pillow", "numpy", "torch"]
 
 [project.urls]
-Repository = "https://github.com/g4brielelori-byte/Custom-Nodes"
+Repository = "https://github.com/g4brielelori-byte/Preprocessor_ContactSheet"
 
 [tool.comfy]
 PublisherId = "GabrieleLoriAI"
